@@ -38,5 +38,19 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    public static int binarySearchR(int[] array, int target, int left, int right){
+        if (left>right){
+            return -1;
+        }
+        int middle = (left+right)/2;
+        if (target == array[middle]) {
+            return middle;
+        }else if (target< array[middle]){
+            return binarySearchR(array, target, left, middle-1);
+        } else{
+            return binarySearchR(array, target, middle+1, right);
+        }
+    }
 }
 
