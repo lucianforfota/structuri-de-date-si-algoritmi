@@ -9,6 +9,7 @@ public class MergeNodeOfLinkedLists {
     public static void main(String[] args) {
         //2,3,8,4
         //6,8,4
+        //test
 
         Node head1 = new Node(2,new Node (3, new Node(8, new Node(4,null))));
         Node head2 = new Node(6, new Node(8, new Node(4, null)));
