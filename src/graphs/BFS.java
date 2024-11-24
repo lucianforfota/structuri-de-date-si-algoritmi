@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
+//parcurgere pe latime, toate pe acelasi nivel
 public class BFS {
     public static void main(String[] args) {
         Node a = new Node("A");
